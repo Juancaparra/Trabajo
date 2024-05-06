@@ -1,0 +1,120 @@
+/* Estilos generales */
+body {
+    width: 100vw;  
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #112fef; /* Blanco */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Header */
+  .header {
+    background-color: #0275f0; /* Azul */
+    width: 100%;
+    height: 20%;
+    color: #ffffff; /* Blanco */
+    text-align: center;
+    padding: 20px;
+  }
+
+  .navbar {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar > ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar > ul > li {
+    list-style: none;
+}
+
+.btn-ini {
+    width: 18%;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    background-color: rgb(14, 25, 230);
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-weight: 500;
+}
+
+  .header > content-1 {
+    width: 20%;
+  }
+
+  .card {
+    width: 25rem;
+    height: 30rem;
+    border: double 2px beige;
+    border-radius: 15px ;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.card > btn-close {
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    align-self: flex-end;
+}
+
+.card > img {
+    width: 80%;
+    height: 50%;
+    border-radius: 15px;
+}
+
+.card > h2 {
+    font-size: 3rem;
+    color: rgb(255, 255, 255);
+}
+  
+  /* Footer */
+  .footer {
+    background-color: #1E90FF; /* Azul */
+    color: #FFFFFF; /* Blanco */
+    text-align: center;  
+    width: 100%;
+    height: 10%;
+    margin-top: 1rem;
+  }
+  
+  /* Enlaces sociales */
+  .social > a {
+    color: #FFFFFF; /* Blanco */
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .bxl-youtube {
+    color: red;
+  }
+  
+  i {
+    color: orange;
+  }
+  
+  .bxl-whatsapp {
+    color: rgb(3, 133, 48);
+  }
+  
+  .bxl-instagram-alt {
+    color: rgb(3, 133, 48);
+  }
+  
+  .bxl-linkedin-square {
+    color: rgb(3, 133, 48);
+  }
