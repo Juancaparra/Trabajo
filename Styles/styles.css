@@ -64,13 +64,6 @@ body {
     align-items: center;
 }
 
-.card > btn-close {
-    width: 2rem;
-    height: 2rem;
-    border-radius: 50%;
-    align-self: flex-end;
-}
-
 .card > img {
     width: 80%;
     height: 50%;
