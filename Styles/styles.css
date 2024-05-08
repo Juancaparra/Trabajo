@@ -1,55 +1,72 @@
-/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    width: 100vw;  
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #112fef; /* Blanco */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 98vw;
+    height: 100vh;  
+    background-color: #259bc5;
   }
   
   /* Header */
   .header {
     background-color: #0275f0; /* Azul */
     width: 100%;
-    height: 20%;
+    height: 8rem;
     color: #ffffff; /* Blanco */
-    text-align: center;
-    padding: 20px;
-  }
-
-  .navbar {
-    width: 70%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
     align-items: center;
-}
-
-.navbar > ul {
-    width: 100%;
     display: flex;
     justify-content: space-around;
-}
+  }
 
-.navbar > ul > li {
-    list-style: none;
+  .tit-1 {
+    text-align: center;
+  }
+
+  button {
+    padding: 5px;
+    margin-right: 1px;
+    background-color: white;
+    color: black;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: grey;
+  }
+
+.content-1 {
+  width: 40%;
 }
 
 .btn-ini {
-    width: 18%;
-    font-size: 1.2rem;
-    border-radius: 10px;
+    width: 20%;
+    font-size: 1rem;
+    border-radius: 30px;
     background-color: rgb(14, 25, 230);
     color: rgb(255, 255, 255);
     cursor: pointer;
-    font-weight: 500;
+    align-items: center;
+    margin-left: -5rem;
 }
 
-  .header > content-1 {
-    width: 20%;
+.container-logo {
+  width: 30%;
+  height: 100%;
+  }
+
+.img-web {
+  width: 6rem;
+  height: 6rem;
+  border-radius: 50%;
+  background-color: #1f1650;
+  margin: 1rem;
+  display: flex;
+  justify-content: right;
+  float: right;
   }
 
   .card {
