@@ -7,11 +7,11 @@
 body {
     width: 100%;
     height: 100vh;  
-    background-color: #259bc5;
+    background-color: #3a2cd7;
   }
   
   .header {
-    background-color: #0275f0;
+    background-color: #2704d9;
     width: 100%;
     height: 6rem;
     color: #ffffff; 
@@ -85,47 +85,50 @@ body {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  justify-content: flex-start;
-  margin-left: 1.8rem;
+  margin-left: 0;
+  margin-bottom: 0;
 }
 
   .card {
     width: 14rem;
     height: 15rem;
     margin: 16px;
-    margin-top: 1.5rem;
+    margin-top: 0.7rem;
     background-color: #ffffff;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-radius: 15px;
+    margin-bottom: 0px;
 }
 
 .card > img {
     width: 100%;
-    height: 92%;
+    height: 100%;
     border-top-left-radius: 15px;
     border-bottom-right-radius: 15px;
+    border-radius: 15px;
 }
 
 .card > h2 {
+  text-align: left;
     font-size: 3rem;
     color: rgb(17, 80, 238);
 }
   
-  /* Footer */
+  
   .footer {
-    background-color: #1E90FF; /* Azul */
-    color: #FFFFFF; /* Blanco */
+    background-color: rgb(47, 19, 232); 
+    color: #FFFFFF; 
     text-align: center;  
     width: 100%;
     height: 10%;
     margin-top: 1rem;
   }
   
-  /* Enlaces sociales */
+ 
   .social > a {
-    color: #FFFFFF; /* Blanco */
+    color: #FFFFFF;
     text-decoration: none;
     margin: 0 10px;
   }
