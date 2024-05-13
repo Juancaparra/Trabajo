@@ -27,7 +27,10 @@ body {
 }
   .tit-1 {
     text-align: center;
+    text-shadow: 0 0 12px white;
   }
+
+  
 
 
   button {
