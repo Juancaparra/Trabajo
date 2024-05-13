@@ -58,6 +58,7 @@ body {
   display: flex;
   justify-content: right;
   float: right;
+  box-shadow: 0 0 12px white;
   }
 
 .container-menu {
