@@ -120,10 +120,14 @@ body {
     border-radius: 15px;
 }
 
-.card > h2 {
+.name-travel {
+  color: blue;
+  font-size: 2rem;
   text-align: left;
-    font-size: 3rem;
-    color: rgb(17, 80, 238);
+  width: 100%;
+  height: 28%;
+  padding: 0.5rem;
+  margin-left: 0.8rem;
 }
   
   
