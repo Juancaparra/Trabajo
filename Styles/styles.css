@@ -60,18 +60,27 @@ body {
   float: right;
   }
 
-.container-selects {
-  width: 94%;
-  height: 1.7rem;
-  text-align: center;
-  display: flex;
+.container-menu {
+  margin: 1rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   justify-content: center;
-  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+}  
+
+.container-selects {
+  width: 50%;
+  display: flex;
+  margin-top: 0.5rem;
   margin: 2rem;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
 .container-selects > input {
   border-radius: 15px;
+  text-align: center;
 }
 
 .container-selects  > select {
@@ -88,6 +97,7 @@ body {
   margin-left: 0;
   margin-bottom: 0;
 }
+
 
   .card {
     width: 14rem;
