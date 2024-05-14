@@ -40,10 +40,12 @@ body {
     color: rgb(255, 255, 255);
     border-radius: 15px;
     cursor: pointer;
+    border-color: white;
   }
 
   button:hover {
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
+    color: black;
   }
 
 
